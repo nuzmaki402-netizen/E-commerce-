@@ -119,9 +119,12 @@ typeEffect();
   });
 
 // btn
-document.getElementById("btn").addEventListener("click",()=>{
-  alert("Your Order is Confirmed ✅")
+document.querySelectorAll(".buy-btn").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    alert("Your Order is Confirmed ✅");
+  });
 });
+
 
 
 
