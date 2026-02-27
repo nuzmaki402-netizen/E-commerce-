@@ -17,17 +17,17 @@ function chnageimage(theme) {
    return;
   
   if (theme === "orange-theme") {
-    contactimg.src = "pic/o.png";
+    contactimg.src = "./o.png";
   }
   else if (theme === "black-theme") {
-    contactimg.src = "pic/bl.png";
+    contactimg.src = "./bl.png";
 
   }
   else if (theme === "blue-theme") {
-    contactimg.src = "pic/b.png";
+    contactimg.src = "./b.png";
   }
   else{
-    contactimg.src = "pic/g.png";
+    contactimg.src = "./g.png";
   }
 //  cache fix
   contactimg.src +="?v=" + Date.now();
@@ -124,6 +124,7 @@ document.querySelectorAll(".buy-btn").forEach(btn=>{
     alert("Your Order is Confirmed ✅");
   });
 });
+
 
 
 
