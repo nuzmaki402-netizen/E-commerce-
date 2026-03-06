@@ -45,7 +45,7 @@ body{
     color: #ccc;
 }
 .orange-theme .text h3{
-    color: black;
+    color: silver;
 }
 
 
@@ -117,7 +117,12 @@ body{
 .black-theme .text h3{
     color: #78b508;
 }
-
+.black-theme .text h1{
+    color: #eee;
+}
+.black-theme .text p{
+    color: #eee;
+}
 .black-theme 
 .about-section{
 
@@ -234,25 +239,37 @@ body{
     background: #ECA00E;
 }
 
-/* navbar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+/* NAVBAR */
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
 
 .logo img {
-    height: 50px;
-    width: 50px;
-    float: inline-start;
-    padding: 4px;
-    margin: 18px;
+    width: 35px;
     border-radius: 50%;
-   
 }
 
-.first-line {
-    padding: 33px;
-    font-size: large;
-    font-family: cursive;
-   
+.logo span {
+    font-size: 22px;
+    font-weight: 600;
 }
-
 
 nav ul {
     display: flex;
@@ -272,7 +289,7 @@ nav ul {
 nav ul li {
     padding: 20px;
     font-size: 20px;
-      list-style-type: none;
+    list-style-type: none;
 
 }
 
@@ -282,7 +299,7 @@ nav ul li a {
     color: #78b508;
     font-weight: bolder;
     font-size: 22px;
-    
+
 }
 
 
@@ -299,61 +316,65 @@ nav ul li a::after {
 }
 
 nav ul li a:hover {
-    color:  #90C72D;
+    color: #90C72D;
 
 }
 
 nav ul li a:hover::after {
-    width: 100%;}
-
-
-/* home */
-.container {
-    margin-top: 4rem;
-   
-
+    width: 100%;
 }
 
-.container .img {
-    float: right;
-    margin-right: 80px;
-    font-size: xx-large;
+/* HERO SECTION */
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 8%;
+    min-height: 80vh;
 }
-#img{
-    height: 300px;
-    width: 500px;
-    border-radius: 50%;
-  
+
+.text {
+    max-width: 550px;
+    margin-top: 70px;
+}
+
+/* HERO IMAGE */
+
+.hero-image img {
+    width: 420px;
+    margin-top: 70px;
 }
 
 .text h3 {
-    padding-left: 4rem;
-    font-size: 3rem;
     color: #90C72D;
+    font-size: 40px;
+    letter-spacing: 2px;
 }
 
 .text h1 {
-    padding-left: 4rem;
-    font-size: 6rem;
+    font-size: 110px;
+    color: black;
+    margin-bottom: 20px;
 }
 
-.box p {
-    width: 35rem;
-    padding-left: 4rem;
+.text p {
+    line-height: 1.6;
+    color: black;
+    margin-bottom: 30px;
 }
 
-.btn {
-    padding-left: 4rem;
-}
+/* BUTTONS */
+
 
 .btn button {
     padding: 6px 18px;
     margin: 15px 15px 15px 0;
-    
+    border: 1px solid #121212;
     border-radius: 30px;
-} 
+}
 
-.btn button a{
+.btn button a {
     text-decoration: none;
     color: #000;
 }
@@ -375,6 +396,8 @@ nav ul li a:hover::after {
 .submit-btn:hover {
     transform: scale(1.07);
 }
+
+
 
 
 
@@ -400,6 +423,87 @@ nav ul li a:hover::after {
 .img-cube img:hover {
     transform: translateY(-10px);
 
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width: 1024px) {
+
+    .text h1 {
+        font-size: 80px;
+    }
+
+    .hero-image img {
+        width: 350px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+
+    nav ul {
+        gap: 20px;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .text h1 {
+        font-size: 70px;
+    }
+
+    .hero-image img {
+        width: 300px;
+    }
+
+    .buttons {
+        justify-content: center;
+    }
+nav ul li a{
+    font-size: 14px;
+        white-space: nowrap;
+        padding: 0 9px;
+}
+}
+
+@media (max-width:480px) {
+.logo span{
+    font-size: small;
+}
+    nav ul li a {
+        
+        margin: 0;
+        margin-left: -40px;
+        
+    }
+
+    .text h3 {
+        font-size: 28px;
+    }
+
+    .text h1 {
+        font-size: 50px;
+    }
+
+    .text p {
+        font-size: 14px;
+    }
+
+    .hero-image img {
+        width: 230px;
+    }
+
+    .text {
+        margin-top: 0;
+    }
+
+    .logo {
+        margin: 0;
+    }
 }
 
 /* about */
@@ -704,13 +808,9 @@ animation: blink 1s infinite;
 
 
 
-
-
-
 /* ===== SAFE MOBILE RESPONSIVE FIX ===== */
 
 @media (max-width: 768px) {
-
   /* Navbar */
   nav ul {
     justify-content: center;
@@ -916,7 +1016,7 @@ animation: blink 1s infinite;
   nav ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-wrap: nowrap;   /* line break band */
     padding: 5px 10px;
   }
@@ -925,13 +1025,17 @@ animation: blink 1s infinite;
   .logo {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 4px;
+     position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
   }
 
   .logo img {
     width: 35px;
     height: 35px;
-    margin: 0;
+    margin: 6px;
   }
 
   .first-line {
@@ -951,6 +1055,14 @@ animation: blink 1s infinite;
   }
 
     }
+
+
+
+
+
+
+
+
 
 
 
