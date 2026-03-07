@@ -90,7 +90,10 @@ body{
 
 
 /* black theme */
-
+.black-theme body{
+    margin: 0;
+    padding: 0;
+}
 .black-theme
 {
     background-color: black;
@@ -237,18 +240,6 @@ body{
 .blue-theme
 .submit-btn{
     background: #ECA00E;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-    background: white;
-    color: black;
 }
 
 /* NAVBAR */
@@ -1055,6 +1046,7 @@ animation: blink 1s infinite;
   }
 
     }
+
 
 
 
