@@ -87,9 +87,125 @@ body{
     color: black;
 }
 
+/* ================= BLACK THEME ================= */
 
+.black-theme{
+    background-color: #000;
+    color: #eee;
+}
 
-/* black theme */
+/* Navbar */
+
+.black-theme nav ul li a{
+    color: #78b508;
+}
+
+.black-theme nav ul li a:hover{
+    color: #eee;
+}
+
+.black-theme nav ul li a::after{
+    background: #78b508;
+}
+
+/* Hero Section */
+
+.black-theme .text h3{
+    color: #78b508;
+}
+
+.black-theme .text h1{
+    color: #eee;
+}
+
+.black-theme .text p{
+    color: #ccc;
+}
+
+/* Buttons */
+
+.black-theme .btn button,
+.black-theme .submit-btn{
+    background: #78b508;
+    color: #000;
+}
+
+/* About Section */
+
+.black-theme .about-section{
+    background: #111;
+    color: #eee;
+}
+
+.black-theme .about-text h2{
+    color: #78b508;
+}
+
+.black-theme .about-text p{
+    color: #ccc;
+}
+
+.black-theme .about-features .feature{
+    background: #1a1a1a;
+}
+
+.black-theme .about-features .feature h3{
+    color: #78b508;
+}
+
+.black-theme .about-features .feature p{
+    color: #ddd;
+}
+
+/* Products Section */
+
+.black-theme .zigzag-products{
+    background: #000;
+    color: #eee;
+}
+
+.black-theme .zigzag-text h3{
+    color: #78b508;
+}
+
+.black-theme .zigzag-text p{
+    color: #ccc;
+}
+
+.black-theme .zigzag-text button{
+    background: #78b508;
+    color: #000;
+}
+
+/* Contact Section */
+
+.black-theme .contact{
+    background: #000;
+    color: #eee;
+}
+
+.black-theme .contact-form{
+    background: #1e1e1e;
+}
+
+.black-theme .form-group{
+    color: #78b508;
+}
+
+.black-theme #name,
+.black-theme #email,
+.black-theme #message{
+    background: #2b2b2b;
+    color: #eee;
+}
+
+/* Image Glow */
+
+.black-theme .bottom-img img{
+    filter: drop-shadow(0 0 20px #78b508);
+}
+
+/* black theme 
 
 .black-theme
 {
@@ -166,7 +282,7 @@ body{
     border-radius: 50%;
 }
 
-
+*/
 
 
 /* blue-theme */
@@ -1055,6 +1171,7 @@ animation: blink 1s infinite;
   }
 
     }
+
 
 
 
