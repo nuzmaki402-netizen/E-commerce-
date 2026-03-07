@@ -87,123 +87,111 @@ body{
     color: black;
 }
 
-/* ================= BLACK THEME ================= */
+/* ================= SAFE BLACK THEME ================= */
 
 .black-theme{
-    background-color: #000;
-    color: #eee;
+    background:#000 !important;
+    color:#eee !important;
 }
 
 /* Navbar */
-
 .black-theme nav ul li a{
-    color: #78b508;
+    color:#78b508 !important;
 }
 
 .black-theme nav ul li a:hover{
-    color: #eee;
+    color:#eee !important;
 }
 
 .black-theme nav ul li a::after{
-    background: #78b508;
+    background:#78b508 !important;
 }
 
-/* Hero Section */
-
+/* Hero text */
 .black-theme .text h3{
-    color: #78b508;
+    color:#78b508 !important;
 }
 
 .black-theme .text h1{
-    color: #eee;
+    color:#eee !important;
 }
 
 .black-theme .text p{
-    color: #ccc;
+    color:#ccc !important;
 }
 
 /* Buttons */
-
 .black-theme .btn button,
 .black-theme .submit-btn{
-    background: #78b508;
-    color: #000;
+    background:#78b508 !important;
+    color:#000 !important;
 }
 
-/* About Section */
-
+/* About section colors only */
 .black-theme .about-section{
-    background: #111;
-    color: #eee;
+    background:#111 !important;
+    color:#eee !important;
 }
 
 .black-theme .about-text h2{
-    color: #78b508;
+    color:#78b508 !important;
 }
 
 .black-theme .about-text p{
-    color: #ccc;
+    color:#ccc !important;
 }
 
+/* Feature cards */
 .black-theme .about-features .feature{
-    background: #1a1a1a;
+    background:#1a1a1a !important;
 }
 
 .black-theme .about-features .feature h3{
-    color: #78b508;
+    color:#78b508 !important;
 }
 
-.black-theme .about-features .feature p{
-    color: #ddd;
-}
-
-/* Products Section */
-
+/* Products */
 .black-theme .zigzag-products{
-    background: #000;
-    color: #eee;
+    background:#000 !important;
 }
 
 .black-theme .zigzag-text h3{
-    color: #78b508;
+    color:#78b508 !important;
 }
 
 .black-theme .zigzag-text p{
-    color: #ccc;
+    color:#ccc !important;
 }
 
 .black-theme .zigzag-text button{
-    background: #78b508;
-    color: #000;
+    background:#78b508 !important;
+    color:#000 !important;
 }
 
-/* Contact Section */
-
+/* Contact */
 .black-theme .contact{
-    background: #000;
-    color: #eee;
+    background:#000 !important;
 }
 
 .black-theme .contact-form{
-    background: #1e1e1e;
+    background:#1e1e1e !important;
 }
 
 .black-theme .form-group{
-    color: #78b508;
+    color:#78b508 !important;
 }
 
 .black-theme #name,
 .black-theme #email,
 .black-theme #message{
-    background: #2b2b2b;
-    color: #eee;
+    background:#2b2b2b !important;
+    color:#eee !important;
 }
 
-/* Image Glow */
-
+/* Poster glow */
 .black-theme .bottom-img img{
-    filter: drop-shadow(0 0 20px #78b508);
-}
+    filter:drop-shadow(0 0 20px #78b508) !important;
+    }
 
 /* black theme 
 
@@ -1171,6 +1159,7 @@ animation: blink 1s infinite;
   }
 
     }
+
 
 
 
