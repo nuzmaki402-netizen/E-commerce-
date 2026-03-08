@@ -24,7 +24,7 @@ body{
 }
 
 .orange-theme #img{
-    background-color: none;
+    background-color: transparent;
 }
 
 .orange-theme nav ul li a::after{
@@ -476,11 +476,9 @@ nav ul li a{
     color: #eee;
 }
 
-.about-section:hover{
-.about-image img {
+.about-section:hover .about-image img{
     background: #ccc;
     border-radius: 50%;
-}
 }
 
 .about-container {
@@ -1016,6 +1014,7 @@ animation: blink 1s infinite;
   }
 
     }
+
 
 
 
