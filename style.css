@@ -34,14 +34,12 @@ body{
     color: rgb(108, 225, 215);
 }
 
-.orange-theme
-.btn button,
-.submit-btn {
+.orange-theme .btn button,
+.orange-theme .submit-btn {
     background: black;
     color: silver;
 }
-.orange-theme
-.btn button a{
+.orange-theme .btn button a{
     color: #ccc;
 }
 .orange-theme .text h3{
@@ -90,7 +88,7 @@ body{
 
 
 /* black theme */
-.black-theme body{
+body.black-theme{
     margin: 0;
     padding: 0;
 }
@@ -110,9 +108,8 @@ body{
 .black-theme nav ul li a::after{
     background: #78b508;
 }
-.black-theme 
-.btn button,
-.submit-btn {
+.black-theme .btn button,
+.black-theme .submit-btn {
     background: #78b508;
     color: black;
 }
@@ -195,9 +192,8 @@ body{
     background: #ECA00E;
 }
 
-.blue-theme 
-.btn button,
-.submit-btn {
+.blue-theme .btn button,
+.blue-theme .submit-btn {
     background: #ECA00E;
     color: black;
 }
@@ -1046,6 +1042,7 @@ animation: blink 1s infinite;
   }
 
     }
+
 
 
 
