@@ -48,39 +48,32 @@ body{
 
 
 
-.orange-theme
-.zigzag-products{
+.orange-theme .zigzag-products{
     background: #EA5906;
     color: #050505;
 }
 
-.orange-theme
-.zigzag-text h3{
+.orange-theme .zigzag-text h3{
     color: silver;
 }
 
-.orange-theme
-.about-text h2{
+.orange-theme .about-text h2{
     color: #EA5906;
 }
-.orange-theme
-.about-features .feature h3{
+.orange-theme .about-features .feature h3{
     color: #EA5906;
 }
 
-.orange-theme
-.form-group{
+.orange-theme .form-group{
     color: silver;
 }
 
-.orange-theme
-.zigzag-text button{
+.orange-theme .zigzag-text button{
     background: silver;
     color: #000;
 }
 
-.orange-theme
-.submit-btn{
+.orange-theme .submit-btn{
     background: silver;
     color: black;
 }
@@ -88,12 +81,7 @@ body{
 
 
 /* black theme */
-body.black-theme{
-    margin: 0;
-    padding: 0;
-}
-.black-theme
-{
+.black-theme{
     background-color: black;
     color: silver;
  }
@@ -123,35 +111,29 @@ body.black-theme{
 .black-theme .text p{
     color: #eee;
 }
-.black-theme 
-.about-section{
+.black-theme .about-section{
 
     background: #eee;
     color: black;
 }
-.black-theme
-.about-text p{
+.black-theme .about-text p{
     color: black;
 }
 
-.black-theme
-.zigzag-products{
+.black-theme .zigzag-products{
     background: #000;
     color: #eee;
 }
-.black-theme 
-.zigzag-text p{
+.black-theme  .zigzag-text p{
     color: #eee;
     font-size: larger;
 }
 
-.black-theme
-.contact{
+.black-theme .contact{
     background: #eee;
     color: black;
 }
-.black-theme
-.center{
+.black-theme .center{
     background: #eee;
     color: black;
 }
@@ -160,8 +142,7 @@ body.black-theme{
 
 
 .black-theme
-.about-section:hover
-.about-image img {
+.about-section:hover .about-image img {
     background: #000;
     border-radius: 50%;
 }
@@ -203,38 +184,31 @@ body.black-theme{
     color: #ECA00E;
 }
 
-.blue-theme
-.zigzag-products{
+.blue-theme .zigzag-products{
     background: #44A8DA;
     color: #050505;
 }
 
-.blue-theme
-.zigzag-text h3{
+.blue-theme .zigzag-text h3{
     color: #ECA00E;
 }
 
-.blue-theme
-.about-text h2{
+.blue-theme .about-text h2{
     color: #ECA00E;
 }
-.blue-theme
-.about-features .feature h3{
-    color: #ECA00E;
-}
-
-.blue-theme
-.form-group{
+.blue-theme .about-features .feature h3{
     color: #ECA00E;
 }
 
-.blue-theme
-.zigzag-text button{
+.blue-theme .form-group{
+    color: #ECA00E;
+}
+
+.blue-theme .zigzag-text button{
     background: #ECA00E;
 }
 
-.blue-theme
-.submit-btn{
+.blue-theme .submit-btn{
     background: #ECA00E;
 }
 
@@ -1042,6 +1016,7 @@ animation: blink 1s infinite;
   }
 
     }
+
 
 
 
