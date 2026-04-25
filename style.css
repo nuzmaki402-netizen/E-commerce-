@@ -377,8 +377,8 @@ nav ul li a:hover::after {
 .img-cube img {
     height: 75px;
     width: 70px;
-    object-fit: cover;
-    padding: 0 10px;
+    object-fit:contain;
+    padding: 0;
 }
 
 .img-cube img:hover {
