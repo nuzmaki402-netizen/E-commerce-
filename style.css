@@ -377,10 +377,10 @@ nav ul li a:hover::after {
 .img-cube img {
     height: 75px;
     width: 70px;
-    object-fit:contain;
+    object-fit: contain;
     padding: 0;
+    display: block;
 }
-
 .img-cube img:hover {
     transform: translateY(-10px);
 
